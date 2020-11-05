@@ -1,0 +1,16 @@
+body {
+  height: 100vh;
+  margin: 0;
+}
+#grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3, 1fr); 
+    align-items: center;
+  }
+
+.box {
+  justify-self: center;
+  border: 5px;
+}
+
